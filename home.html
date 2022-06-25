@@ -11,21 +11,53 @@
   <body>
     <header>
 
-      <nav class="navbar">
-        <img class="logo" src="img/logooda.png" alt="logo">
-        <div class="nav-links">
-          <ul> 
-            <li class="active"><a href="mailto:incasedao@gmail.com">Contact</a></li>
-            <li class="info"><a href="https://mirror.xyz/joinoda.eth" target="blank_">Info</a></li>
-            <li><a href="https://twitter.com/join_ODA" target="blank_">Twitter</a></li>
-            <li><a href="https://discord.gg/UrFb6uGF3x" target="blank_">Discord</a></li>
-            <li><a href="https://etherscan.io/address/0xC503C8CC4D580f999EB1FB5e989FbC15371c8E5B" target="blank_" >Wallet</a></li>
-          </ul>
-        </div>
-        <img src="img/hamburger.png" class="menu-hamburger" alt="menu">
-      </nav>
+ 
       
+       
+
+        <h1 class="h1">joinoda.eth</h1>
+
+        <div>
+          <p class="textuel">
+            ODA, 3 lettres qui désignent une organisation 
+            aux multiples facettes,<br> regroupant des individus 
+            de tous domaines de compétences mais <br> solidement unis 
+            autour d’un objectif commun : <br><br>
+            créer une DAO française résiliente et de qualité, une 
+            DAO visant à <br> devenir une référence dans la sphère 
+            crypto francophone.</p>
+        </div>
+   
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeTRmL90zWUC7_gEbB_91ZuJmjE5I8ouHUEbRnogZIPkUffAw/viewform" target="blank_">Candidater</a> 
+     
+
+        <h2 class="copyright">Website designed and developped by <a class="link" href="https://twitter.com/0xOctopus_" target="blank_">@0xOctopus</a></h2>
+      
+      
+        <img class="fichier" src="img/fichier.png" alt="fichier d'enquête">
+
+         
+        <!-- RESPONSIVE -->
+
+
+     <h2 class="h2">joinoda.eth</h2>
+
+     <a class="button2" href="https://docs.google.com/forms/d/e/1FAIpQLSeTRmL90zWUC7_gEbB_91ZuJmjE5I8ouHUEbRnogZIPkUffAw/viewform" target="blank_">Candidater</a> 
+     
+     <img class="fichier2" src="img/fichier.png" alt="fichier d'enquête">
+
+
     </header>
+
+    <script>
+      const menuHamburger = document.querySelector(".menu-hamburger")
+         const navLinks = document.querySelector(".nav-links")
+  
+         menuHamburger.addEventListener('click',()=>{
+         navLinks.classList.toggle('mobile-menu')
+         })
+   </script>
+   
   </body>
 
  
