@@ -19,7 +19,7 @@ body {
 header {
   height: 100vh;
   width: 100vw;
-  background-image: url(img/Image1.jpg);
+  background-image: url("./img/Image1.jpg");
   background-size: cover;
   background-repeat: none;
   position: fixed;
@@ -68,6 +68,8 @@ header {
 
 .fichier {
   animation: floating 6s ease-in-out 0s infinite;
+  
+
 }
 
 .button2{
@@ -155,6 +157,7 @@ header {
   margin-left: 150px;
   margin-top: 240px;
   
+  
 }
 
 .textuel {
@@ -225,6 +228,7 @@ header {
     padding-top: 140px;
     font-size: 30px;
     justify-content: center;
+    padding-bottom: 50px;
 
   }
 
@@ -329,19 +333,21 @@ header {
     border: none;
     color: rgb(0, 0, 0);
     font-weight: 600;
-    margin-top: 30px;
-    margin-left: 115px;
-    margin-right: 115px;
+    width: 100px;
+    margin: auto;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
     transition: transform 0.4s;
     cursor: pointer;
-    align-items: center;
     justify-content: center;
-    display: inline-block;
-    box-sizing: border-box;
-    
+  }
+
+  .button2:hover{
+    transform: scale(1.05);
+  background-color: #C99D66;
+  color: white;
+  transition: 0.4s;
   }
 
   .fichier2{
@@ -351,12 +357,12 @@ header {
     margin-top: 50px;
     justify-content: center;
     box-sizing: border-box;
+    margin: auto;
+    padding-top: 50px;
+    
     
   }
 
 
     
   }
-
-
- 
