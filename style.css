@@ -157,6 +157,7 @@ header {
   margin-left: 150px;
   margin-top: 240px;
   animation-delay: 1.5s;
+  
 }
 
 
@@ -165,7 +166,7 @@ header {
   color: white;
   font-weight: 200;
   margin-left: 150px;
-  padding-top: 360px;
+  padding-top: 380px;
 }
 
 .fichier {
