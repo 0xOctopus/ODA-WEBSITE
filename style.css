@@ -156,21 +156,22 @@ header {
   position: absolute;
   margin-left: 150px;
   margin-top: 240px;
-  
-  
+  animation-delay: 1.5s;
 }
+
+
 
 .textuel {
   color: white;
   font-weight: 200;
   margin-left: 150px;
-  padding-top: 400px;
+  padding-top: 360px;
 }
 
 .fichier {
   margin-top: -1100px;
   padding-left: 300px;
-  margin-bottom: 140px;
+  margin-bottom: 210px;
 }
 
 .copyright {
@@ -362,7 +363,6 @@ header {
     
     
   }
-
-
     
   }
+
