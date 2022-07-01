@@ -325,8 +325,6 @@ header {
   }
   
 
-    
-  
 
   .textuel {
     display: none;
@@ -375,11 +373,21 @@ header {
     
     
   }
+
+  .icone{
+    display: none;
+  }
     
+
+  i {
+    display: none;
   }
 
-  .section2 {
-    background-color: #9d7a4f;
-    width: 300px;
-    height: 200px;
+  .section{
+    background-image: url("./img/dark.png");
+    background-size: cover;
+    background-repeat: none;
   }
+
+
+}

@@ -372,11 +372,24 @@ header {
     
     
   }
+
+  i {
+    display: none;
+  }
+
+  .icone1{
+    display: none;
+  }
+
+  .section{
+    background-image: url("./img/Image1.jpg");
+    background-size: cover;
+    background-repeat: none;
+  }
     
   }
 
-  .section2 {
-    background-color: #9d7a4f;
-    width: 300px;
-    height: 200px;
-  }
+
+  
+
+  
