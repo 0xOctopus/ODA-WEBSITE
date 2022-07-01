@@ -19,7 +19,7 @@ body {
 header {
   height: 100vh;
   width: 100vw;
-  background-image: url("./img/Image1.jpg");
+  background-image: url("./img/dark.png");
   background-size: cover;
   background-repeat: none;
   position: fixed;
@@ -36,6 +36,7 @@ header {
   align-items: center;
  
 }
+
 
 
 
@@ -66,6 +67,8 @@ header {
   
   
 }
+
+
 
 .fichier {
   animation: floating 6s ease-in-out 0s infinite;
